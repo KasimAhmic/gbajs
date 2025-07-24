@@ -1,0 +1,38 @@
+{
+  "name": "@ahmic/gbajs",
+  "version": "1.0.0",
+  "description": "A GameBoy Advance emulator written in TypeScript",
+  "main": "src/main.ts",
+  "type": "module",
+  "scripts": {
+    "start": "tsc && node build/main.js",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KasimAhmic/gbajs.git"
+  },
+  "keywords": [
+    "gba",
+    "emulator",
+    "node",
+    "javascript",
+    "typescript",
+    "native"
+  ],
+  "author": "Kasim Ahmic",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KasimAhmic/gbajs/issues"
+  },
+  "homepage": "https://github.com/KasimAhmic/gbajs#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.31.0",
+    "@trivago/prettier-plugin-sort-imports": "^5.2.2",
+    "@types/node": "^24.1.0",
+    "eslint": "^9.31.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.38.0"
+  }
+}
